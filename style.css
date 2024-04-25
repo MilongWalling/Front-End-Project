@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+body,
+html {
+  min-height: 100vh;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content-container {
+  padding: 0 20%;
+  max-width: 100%;
+}
+
+
+.hero-background {
+  width: 100%;
+  height: auto;
+}
+
+
+.accordion #collapseOne,
+.accordion #collapseTwo,
+.tab-content #mountain1,
+.tab-content #mountain2 {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accordion #collapseOne,
+.tab-content #mountain1 {
+  background-image: url(images/mountain1.jpg);
+}
+
+.accordion #collapseTwo,
+.tab-content #mountain2 {
+  background-image: url(images/mountain2.jpg);
+}
+
+.nav-container {
+  transition: all 0.5s;
+}
+
+#logo {
+  display: none;
+  margin-left: 0.25rem;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  padding: 0.3rem 0;
+  color: #ffffff;
+  letter-spacing: 1px;
+  line-height: 20px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.navbar-scrolled {
+  background-color: #ffffff;
+}
+
+.navbar-scrolled #logo {
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.nav-link:hover,
+.navbar-scrolled .nav-link {
+  color: #414f6b;
+  border-bottom: 2px solid #414f6b;
+}
+
+#history {
+  background-image: url(images/history_bg.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#history.section-container {
+  position: relative;
+  width: 100%;
+}
+
+.section-background {
+  width: 100%;
+  position: relative;
+  z-index: -10;
+}
+
+#history .section-content {
+  position: absolute;
+  top: 0;
+  padding-top: 2rem;
+}
+
+.section-title {
+  position: relative;
+}
+
+.section-title .number {
+  color: rgb(65, 79, 107, 0.5);
+  font-size: 136px;
+}
+
+.section-title .text {
+  font-size: 32px;
+  color: #414f6b;
+  position: relative;
+  top: -2.5rem;
+  left: -2.5rem;
+  text-transform: uppercase;
+}
+
+#history .section-desc {
+  position: relative;
+  top: -3rem;
+  font-size: 16px;
+  padding: 0 6rem;
+}
+
+#team .section-title {
+  width: 36rem;
+}
+
+#team .section-desc {
+  font-size: 16px;
+  align-self: center;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #414f6b;
+  color: #63769d;
+}
+
+
+.footer .copyright {
+  align-self: center;
+}
+
+.tab-container {
+  background-color: #414f6b;
+}
+
+.nav-tab .nav-link,
+.accordion .accordion-button {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #b0b4be;
+  border: 0;
+  padding: 1rem;
+}
+
+.nav-tab .nav-link.active {
+  color: #414f6b;
+  background-color: #b0b4be;
+}
+
+.accordion .accordion-button {
+  color: #b0b4be;
+  background-color: #414f6b;
+}
+
+.tab-content,
+.accordion {
+  position: relative;
+}
+
+.tab-content .title,
+.accordion .title {
+  font-size: 32px;
+  color: #414f6b;
+  text-transform: uppercase;
+}
+
+.tab-content .content-container,
+.accordion .content-container {
+  padding-top: 10rem;
+  height: 100vh;
+}
+
+.tab-content .schedule-container,
+.accordion .schedule-container {
+  padding: 1rem 3.5rem;
+  background-color: rgb(255, 255, 255, 0.7);
+  width: 30rem;
+  margin: 2rem;
+}
+
+.tab-content .schedule-container td,
+.accordion .schedule-container td {
+  font-size: 16px;
+}
+
+.table td {
+  padding: 0.25rem 0.5rem;
+}
+
+
+.carousel-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  background-color: rgb(65, 79, 107, 0.9);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+.carousel,
+.carousel-item img {
+  width: 100%;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  left: -8rem;
+}
+
+.carousel-control-next {
+  position: absolute;
+  right: -8rem;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+@media (max-width: 1200px) {
+
+  #logo {
+    display: inline-block;
+    transform: scale(0.7);
+    margin: unset;
+  }
+
+  .hero-container {
+    position: relative;
+    margin-top: 6rem;
+  }
+
+
+  .nav-container {
+    min-height: 6rem;
+  }
+
+  .navbar>.container-fluid {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 5%;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 5%;
+  }
+
+  .nav-container {
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  .nav-link, .navbar-scrolled .nav-link{
+    color: #414f6b;
+    border-bottom: none;
+    padding: 1rem 6%;
+    margin: 0;
+  }
+
+
+  .nav-link:hover {
+    background-color: #a0aabe;
+  }
+
+  .content-container {
+    padding: 0 6%;
+  }
+
+  .footer .content-container {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-bottom: 1rem;
+  }
+
+  .footer .copyright {
+    align-self: start;
+  }
+
+  .section-title {
+    padding: 1rem;
+  }
+
+  .section-title .number {
+    font-size: 6rem;
+    left: 0;
+  }
+
+  .section-title .text {
+    font-size: 2rem;
+    left: 0;
+    top: 0;
+  }
+
+  #history .section-desc {
+    position: relative;
+    font-size: 14px;
+    top: 0;
+    padding: 0 2rem;
+    text-align: justify;
+  }
+
+  #team .section-desc {
+    font-size: 14px;
+    padding: 0 2rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+
+  #history {
+    min-height: 60vh;
+    width: 50%;
+    background-position: right;
+  }
+
+  #history.section-container {
+    width: auto;
+  }
+
+  #team .section-title {
+    width: unset;
+  }
+
+  .carousel-item img {
+    width: 80%;
+  }
+
+  .carousel-item img {
+    display: block;
+    margin: auto;
+  }
+
+  .carousel-control-prev {
+    left: -2rem;
+  }
+
+  .carousel-control-next {
+    right: -2rem;
+  }
+
+  #history .section-content {
+    position: relative;
+  }
+
+  #history .section-content {
+    position: relative;
+  }
+
+  .carousel-container {
+    position: relative;
+    margin-top: 5rem;
+  }
+
+}

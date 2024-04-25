@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Los Angeles Mountains</title>
+
+</head>
+
+<body>
+
+  <!-- NAV SECTION -->
+  <section class="nav-container fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container content-container justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img id="logoIcon" src="images/logo_icon.png" alt="" />
+          <img id="logo" src="images/logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item lato-black-italic">
+              <a class="nav-link" href="#history">01. HISTORY</a>
+            </li>
+            <li class="nav-item lato-black-italic">
+              <a class="nav-link" href="#team">02. TEAM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </section><!-- END NAV SECTION -->
+
+  <!-- HERO SECTION -->
+  <section class="hero-container">
+    <img class="hero-background" src="images/hero.jpg">
+  </section> <!-- END HERO SECTION -->
+
+  <!-- HISTORY SECTION -->
+  <section id="history" class="section-container">
+    <!--  <img class="section-background" src="images/history_bg.jpg">-->
+    <div class="section-content content-container">
+      <div class="section-title">
+        <span class="number oswald-bold">01.</span>
+        <span class="text oswald-bold">HISTORY</span>
+      </div>
+      <div class="section-desc lato-light">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur
+        mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id
+        quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
+        dignissim tortor nec congue.
+      </div>
+    </div>
+
+    <!-- CAROUSEL SECTION -->
+    <div class="carousel-container content-container">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo2.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo2.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img src="images/photo2.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo2.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo1.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo2.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo2.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img src="images/photo2.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo2.jpg">
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="images/photo1.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </section> <!-- END HISTORY SECTION -->
+
+  <!-- TEAM SECTION -->
+  <section id="team" class="section-container">
+    <div class="section-content content-container d-md-flex">
+      <div class="section-title">
+        <span class="number oswald-bold">02.</span>
+        <span class="text oswald-bold">TEAM</span>
+      </div>
+
+      <div class="section-desc lato-light">
+        Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
+        Vivamus suscipit dignissim tortor nec congue.
+      </div>
+    </div>
+
+    <div class="section-content content-container tab-container d-none d-md-block">
+      <ul class="nav nav-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#mountain1" type="button"
+            role="tab" aria-controls="pills-home" aria-selected="true">Mountain 1</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#mountain2" type="button"
+            role="tab" aria-controls="pills-profile" aria-selected="false">Mountain 2</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="tab-content d-none d-md-block">
+      <div class="tab-pane fade show active" id="mountain1" role="tabpanel" tabindex="0">
+        <div class="content-container">
+          <div class="schedule-container">
+            <div class="title oswald-bold">Schedule</div>
+            <table class="table table-borderless lato-light">
+              <tr>
+                <td>25 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>28 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td class="pb-4"></td>
+              </tr>
+              <tr>
+                <td>18 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td class="pb-4"></td>
+              </tr>
+              <tr>
+                <td>7 Jan 2017 </td>
+                <td>Vestibulum viverra</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="mountain2" role="tabpanel" tabindex="0">
+        <div class="content-container">
+          <div class="schedule-container">
+            <div class="title oswald-bold">Schedule</div>
+            <table class="table table-borderless lato-light">
+              <tr>
+                <td>17 Nov 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td class="pb-4"></td>
+              </tr>
+              <tr>
+                <td>13 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td>28 Dec 2016</td>
+                <td>Vestibulum viverra</td>
+              </tr>
+              <tr>
+                <td class="pb-4"></td>
+              </tr>
+              <tr>
+                <td>9 Feb 2017 </td>
+                <td>Vestibulum viverra</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="accordion d-block d-md-none">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Mountain 1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="content-container">
+              <div class="schedule-container">
+                <div class="title oswald-bold">Schedule</div>
+                <table class="table table-borderless lato-light">
+                  <tr>
+                    <td>25 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td>28 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td class="pb-4"></td>
+                  </tr>
+                  <tr>
+                    <td>18 Dec 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td class="pb-4"></td>
+                  </tr>
+                  <tr>
+                    <td>7 Jan 2017 </td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Mountain 2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="content-container">
+              <div class="schedule-container">
+                <div class="title oswald-bold">Schedule</div>
+                <table class="table table-borderless lato-light">
+                  <tr>
+                    <td>25 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td>28 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td class="pb-4"></td>
+                  </tr>
+                  <tr>
+                    <td>18 Dec 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td class="pb-4"></td>
+                  </tr>
+                  <tr>
+                    <td>7 Jan 2017 </td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- END TEAM SECTION -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="content-container d-flex justify-content-between">
+      <div class="footer-logo">
+        <img class="icon" src="images/footer_logo_icon.png" alt="" />
+        <img class="text ms-1" src="images/footer_logo.png" alt="" />
+      </div>
+      <div class="copyright">&copy; 2024 Your Company. All rights reserved.</div>
+    </div>
+  </footer><!-- END FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
